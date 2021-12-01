@@ -10,7 +10,7 @@ export const Navigation = () => {
         <li className={styles.item}>
           <Link
             className={styles.link}
-            to="favorites"
+            to={process.env.PUBLIC_URL + 'favorites'}
             aria-label="Перейти на страницу избранных товаров">
             <MdFavoriteBorder size={20} />
           </Link>
@@ -18,7 +18,7 @@ export const Navigation = () => {
         <li className={styles.item}>
           <Link
             className={styles.link}
-            to="orders"
+            to={process.env.PUBLIC_URL + 'orders'}
             aria-label="Перейти на страницу оформленных товаров">
             <BiUserCircle size={20} />
           </Link>
