@@ -10,7 +10,7 @@ export const Navigation = () => {
         <li className={styles.item}>
           <Link
             className={styles.link}
-            to="/favorites"
+            to="favorites"
             aria-label="Перейти на страницу избранных товаров">
             <MdFavoriteBorder size={20} />
           </Link>
@@ -18,7 +18,7 @@ export const Navigation = () => {
         <li className={styles.item}>
           <Link
             className={styles.link}
-            to="/orders"
+            to="orders"
             aria-label="Перейти на страницу оформленных товаров">
             <BiUserCircle size={20} />
           </Link>

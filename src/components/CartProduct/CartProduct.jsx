@@ -20,13 +20,7 @@ export const CartProduct = ({ id, title, price, imageUrl, imageAlt }) => {
 
   return (
     <div className={styles.cartProduct}>
-      <img
-        className={styles.img}
-        src={`images/products/${imageUrl}`}
-        // width={200}
-        // height={42}
-        alt={imageAlt}
-      />
+      <img className={styles.img} src={`images/products/${imageUrl}`} alt={imageAlt} />
       <div className={styles.content}>
         <h3 className={styles.title}>{title}</h3>
         <span className={styles.price}>{priceRu(price)}</span>
