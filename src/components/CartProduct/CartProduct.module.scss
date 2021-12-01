@@ -1,0 +1,33 @@
+.cartProduct {
+  padding: 20px;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-primary);
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  margin: 0 30px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.img {
+  width: 140px;
+  height: 90px;
+}

@@ -1,0 +1,42 @@
+.p {
+  font-weight: 400;
+}
+
+.small {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.medium {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.large {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.primary {
+  color: var(--text-primary);
+}
+
+.black {
+  color: var(--black);
+}
+
+.white {
+  color: var(--white);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.success {
+  color: var(--success);
+}
+
+.danger {
+  color: var(--danger);
+}

@@ -1,0 +1,20 @@
+.search {
+  position: relative;
+}
+
+.input {
+  padding-right: 50px;
+}
+
+.btnClear {
+  position: relative;
+  padding: 0 5px 1px 5px;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  & svg {
+    width: 10px;
+    height: 10px;
+  }
+}

@@ -1,0 +1,29 @@
+.footer {
+  padding-top: 30px;
+  border-top: 1px solid var(--border-primary);
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.developer,
+.design {
+  & span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--secondary);
+    margin-right: 4px;
+  }
+
+  & strong {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--secondary);
+  }
+}
